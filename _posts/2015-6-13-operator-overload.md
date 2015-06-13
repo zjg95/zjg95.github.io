@@ -37,3 +37,5 @@ By inserting the method “operator+” into the code, we have given a meaning t
 4. You cannot change the associativity of an operator. X - Y - Z happens left to right. That means Y is subtracted from X before Z. In the case of X = Y = Z, the opposite happens. Y is assigned to Z before X is assigned.
 
 5. You cannot change the arity of an operator. This refers to the number of arguments it takes. There are uniary, binary, ternary and multi argument operators, such as "(-)", "+", "()? () : ()" and method calls. You cannot decide to make one addition happen with three numbers.
+
+While these restrictions might be inconvenient for some programmers, the ability to overload operators in C++ is a powerful tool that can be used for many practical applications.
