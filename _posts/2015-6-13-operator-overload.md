@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Operator Overload
+title: Week 1: Operator Overload
 ---
 
 The power of C++ continues to impress me as I discover more and more. In my opinion, one of the coolest and most powerful features of the language is the ability to overload (give a new meaning to already existing) operators. What does this mean, and why is it useful? 
