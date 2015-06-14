@@ -18,10 +18,10 @@ avatar: https://avatars0.githubusercontent.com/u/8799628?v=3&s=400
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: zjgoodman@utexas.edu
   facebook:
   flickr:
-  github: barryclark/jekyll-now
+  github: zjg95
   instagram:
   linkedin:
   pinterest:
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: http://zjg95.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
