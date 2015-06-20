@@ -7,7 +7,7 @@ When I started learning C++, the only other programming language I knew was Java
 
 While pointers allow programmers to write powerful code, I can understand how their usage might seem confusing to novice programmers. I can remember struggling to understand the difference between the "*" and "&" operators. As it turns out, there are four stories to tell with these operators:
 
-1. "*" next to a type
+### "*" next to a type
 
 ```c++
 int  a;
@@ -16,7 +16,7 @@ int* b;
 
 When * appears next to a type, it creates a pointer of that type. Pointers can be used to access specific locations in memory.
 
-2. "&" next to a name
+### "&" next to a name
 
 ```c++
 int  a = 6;
@@ -29,7 +29,7 @@ cout << b << endl; // prints the address, ex. 0x08E074BF
 
 Using the operator like this returns a pointer to 'a'. This is essential for creating a pointer.
 
-3. "*" next to a name
+### "*" next to a name
 
 ```c++
 int  a = 6;
@@ -43,7 +43,7 @@ cout << *b << endl; // prints 7
 
 When * appears next to a name, it follows the pointer and returns the data pointed to. This can be used to read or write to the value pointed to by the pointer. This is called "dereferencing" the pointer. This will only work for pointer types. In this example, the thing pointed to by 'b' becomes 7. Since 'b' is pointing to the memory location of 'a' it will become 7. 
 
-4. "&" next to a type
+### "&" next to a type
 
 ```c++
 int  a = 6;
