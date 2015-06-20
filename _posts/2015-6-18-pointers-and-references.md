@@ -58,5 +58,7 @@ cout << b << endl; // prints 7
 
 This operator placement creates a "reference" to an existing value. Once a reference is created, there is nothing that can be said about one value that would not affect the other. For example, changing the value of 'a' will always change the value of 'b,' and vice versa. Performing any operation with a will be the same if that operation were performed with 'b.' You can think of it as another name for that variable.
 
+----
+
 #### Personal thoughts
 Coming from a language like Java where all pointers are managed for you, I have grown to love manually managing pointers. The concept of C++ references is new to me, but they feel very natural. I have written some small amounts of Java code after studying C++ and I've found that the inability to manage pointers manually inhibits my ability to easy write powerful code. Ultimately I am a huge fan of pointers and references and I encourage others not to fear them.
