@@ -28,3 +28,31 @@ Although smaller than Java, C++ doesn't hold a candle to python:
 ```python
 print("Hello World!")
 ```
+
+The difference is clear. The hello world program is undeniably easier in Python. This is originally one of the reasons I thought it wasn't a "real" programming language. But Collatz proved to me that Python is capable of much more than hello world. The Pythonic collatz did everything the C++ collatz could do (although a bit slower). Downing proved that Python is powerful through the Root Mean Square example in class. 
+
+#### C++
+```c++
+#include <math.h>
+template <typename T>
+double rmse (T a, T p) {
+    int i = 0;
+    int v = 0;
+    while (i != size(a)) {
+        v += pow((double)(a[i] - p[i]), 2.0);
+        ++i;
+    }
+    return sqrt((double)(v / size(a)));
+}
+```
+#### Python
+```python
+from numpy import subtract, mean, square
+def rmse (a, p) :
+    return sqrt(mean(square(subtract(a, p))))
+```
+
+### Personal Thoughts
+The difference is incredible. It's so much easier to write the code in Python. I also appreciate the fact that Python is typeless, which makes all code generic. Obviously there is a difference in speed between C++ and Python, so you wouldn't want to write a program that runs all the time in Python. But I can absolutely appreciate the value of writing short simple programs in Python. The code is incredibly easy to write and read.
+
+In the end, I'm really starting to see the differences between programming languages, and the value of using one over the other, depending on the goal.
