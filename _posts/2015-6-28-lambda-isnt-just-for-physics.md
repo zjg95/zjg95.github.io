@@ -18,7 +18,7 @@ list<T> filter_blue(const list<T>& master_list){
 
 	// iterate through the list, checking the color
 	for (T current : master_list){
-		if (current.color == BLUE){
+		if (current.color == "BLUE"){
 			// add it to the new filtered list
 			filtered_list.push_back(current);
 		}
@@ -32,7 +32,7 @@ list<T> filter_red(const list<T>& master_list){
 
 	// iterate through the list, checking the color
 	for (T current : master_list){
-		if (current.color == RED){
+		if (current.color == "RED"){
 			// add it to the new filtered list
 			filtered_list.push_back(current);
 		}
@@ -48,7 +48,7 @@ One obvious solution to this problem is to have a function that expects a list o
 
 ```c++
 template <typename T>
-list<T> filter_color(const list<T>& master_list, color desired_color){
+list<T> filter_color(const list<T>& master_list, string desired_color){
 	list<T> filtered_list;
 
 	// iterate through the list, checking the color
@@ -62,7 +62,7 @@ list<T> filter_color(const list<T>& master_list, color desired_color){
 	return filtered_list;
 }
 template <typename T>
-list<T> filter_size(const list<T>& master_list, size desired_size){
+list<T> filter_size(const list<T>& master_list, string desired_size){
 	list<T> filtered_list;
 
 	// iterate through the list, checking the size
@@ -101,19 +101,19 @@ template <typename T>
 void some_function(const list<T>& master_list){
 	// get list of all blue objects
 	list<T> filtered_color_blue = filter(master_list, [](const T& current)->bool{
-		return (current.color == BLUE);
+		return (current.color == "BLUE");
 	});
 	// get list of all red objects
 	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.color == RED);
+		return (current.color == "RED");
 	});
 	// get list of all large objects
 	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.size == LARGE);
+		return (current.size == "LARGE");
 	});
 	// get list of all round objects
 	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.shape == ROUND);
+		return (current.shape == "ROUND");
 	});
 }
 ```
