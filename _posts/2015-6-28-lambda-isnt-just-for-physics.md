@@ -84,37 +84,37 @@ This is where those lambda functions come into play. By writing a function that 
 ```c++
 template <typename T>
 list<T> filter(const list<T>& master_list, std::function<bool(const T&)> filter){
-	list<T> filtered_list;
+    list<T> filtered_list;
 
-	// iterate through the list, checking the filter
-	for (T current : master_list){
-		if (filter(current)){
-			// add it to the new filtered list
-			filtered_list.push_back(current);
-		}
-	}
+    // iterate through the list, checking the filter
+    for (T current : master_list){
+        if (filter(current)){
+            // add it to the new filtered list
+            filtered_list.push_back(current);
+        }
+    }
 
-	return filtered_list;
+    return filtered_list;
 }
 
 template <typename T>
 void some_function(const list<T>& master_list){
-	// get list of all blue objects
-	list<T> filtered_color_blue = filter(master_list, [](const T& current)->bool{
-		return (current.color == "BLUE");
-	});
-	// get list of all red objects
-	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.color == "RED");
-	});
-	// get list of all large objects
-	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.size == "LARGE");
-	});
-	// get list of all round objects
-	list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
-		return (current.shape == "ROUND");
-	});
+    // get list of all blue objects
+    list<T> filtered_color_blue = filter(master_list, [](const T& current)->bool{
+        return (current.color == "BLUE");
+    });
+    // get list of all red objects
+    list<T> filtered_color_red = filter(master_list, [](const T& current)->bool{
+        return (current.color == "RED");
+    });
+    // get list of all large objects
+    list<T> filtered_size_lard = filter(master_list, [](const T& current)->bool{
+        return (current.size == "LARGE");
+    });
+    // get list of all round objects
+    list<T> filtered_shape_round = filter(master_list, [](const T& current)->bool{
+        return (current.shape == "ROUND");
+    });
 }
 ```
 
