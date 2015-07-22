@@ -5,7 +5,9 @@ permalink: /blog/
 
 ## Blog
 
-Welcome to my blog! Here you will find short segments I have written about subjects that I have found interesting while studying CS. 
+#### Welcome to my blog! Here you will find short segments I have written about subjects that I have found interesting while studying CS. 
+
+****
 
 <div class="posts">
   {% for post in site.posts %}
