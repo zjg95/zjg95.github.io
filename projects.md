@@ -12,18 +12,18 @@ permalink: /projects/
 ### GoTDB
 
 ![an image alt text]({{ site.baseurl }}/images/gotdb1.png "an image title")
-[Read More]({{ site.baseurl }}/gotdb.html)
+[Details]({{ site.baseurl }}/gotdb.html)
 
 ****
 
 ### PuzzlePals
 
 ![an image alt text]({{ site.baseurl }}/images/puzzlepals1.png "an image title")
-[Read More]({{ site.baseurl }}/puzzlepals.html)
+[Details]({{ site.baseurl }}/puzzlepals.html)
 
 ****
 
 ### Tic-Tac-Toe
 
 ![an image alt text]({{ site.baseurl }}/images/tictactoe1.png "an image title")
-[Read More]({{ site.baseurl }}/tictactoe.html)
+[Details]({{ site.baseurl }}/tictactoe.html)
