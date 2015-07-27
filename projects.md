@@ -9,21 +9,15 @@ permalink: /projects/
 
 ****
 
-### GoTDB
-
+### [GoTDB (Game of Thrones Database)]({{ site.baseurl }}/gotdb.html)
 ![an image alt text]({{ site.baseurl }}/images/gotdb1.png "an image title")
-[Details]({{ site.baseurl }}/gotdb.html)
 
 ****
 
-### PuzzlePals
-
+### [PuzzlePals]({{ site.baseurl }}/puzzlepals.html)
 ![an image alt text]({{ site.baseurl }}/images/puzzlepals1.png "an image title")
-[Details]({{ site.baseurl }}/puzzlepals.html)
 
 ****
 
-### Tic-Tac-Toe
-
+### [Tic-Tac-Toe]({{ site.baseurl }}/tictactoe.html)
 ![an image alt text]({{ site.baseurl }}/images/tictactoe1.png "an image title")
-[Details]({{ site.baseurl }}/tictactoe.html)
