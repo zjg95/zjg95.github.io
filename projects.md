@@ -11,7 +11,7 @@ permalink: /projects/
 
 ### GoTDB
 
-![an image alt text]({{ site.baseurl }}/images/gotdb.png "an image title")
+![an image alt text]({{ site.baseurl }}/images/gotdb1.png "an image title")
 [Read More]({{ site.baseurl }}/gotdb.html)
 
 ****
