@@ -12,6 +12,8 @@ permalink: /projects/
 ## [GoTDB (Game of Thrones Database)]({{ site.baseurl }}/gotdb.html)
 ![images/gotdb1.png]({{ site.baseurl }}/images/gotdb1.png "an image title")
 
+[![Foo](/images/gotdb1.png)](/gotdb.html)
+
 ****
 
 ## [PuzzlePals]({{ site.baseurl }}/puzzlepals.html)
