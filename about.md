@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Zachary Goodman. I am a student graduating in December 2015 from the University of Texas at Austin with a BS in Computer science and a [certificate in information security](http://www.cs.utexas.edu/undergraduate-program/academics/certificate-programs/infosec). I’m a big fan of C++ but I’m interested in all aspects of programming; I love to create and write software, regardless of the language or platform. I have an affinity for collaborative design, and I work strongly as an individual as well.
+My name is Zachary Goodman. I am a student graduating in December 2015 from the University of Texas at Austin with a BS in Computer science and a [certificate in information security](http://www.cs.utexas.edu/undergraduate-program/academics/certificate-programs/infosec). I’m a big fan of C++ but I’m interested in all aspects of programming; I love to create and write software, regardless of the language or platform. I have an affinity for collaborative design, and I work strongly as an individual as well. I strive for efficiency, and obsess over details.
 
 Seeing the product of my code is the most rewarding feeling to me. There’s nothing better than working my way through a complex problem and finally figuring out the secret “missing piece” to the puzzle. I love challenging my programming skills with coding problems. I don’t always know the answer, but what fun would it be if I didn’t learn something new from it?
 
